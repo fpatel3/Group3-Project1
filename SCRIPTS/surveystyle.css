@@ -1,0 +1,25 @@
+body{
+    background-color: darkkhaki;
+    margin-left: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Q1,.Q2,.Q3,.Q4,.Q5{
+    margin-left: 130px;
+ 
+    font-family: 'Courier New', Courier, monospace;
+} 
+
+.QA1,.QA2,.QA3,.QA4,.QA5{
+    
+    margin-left: 180px;
+    font-family: 'Courier New', Courier, monospace;
+} 
+
+.footer{
+    padding: 30px;
+    position: relative;
+    left: 0;
+    width: 100%;  
+}
+
