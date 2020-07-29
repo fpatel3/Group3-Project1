@@ -1,0 +1,47 @@
+body{
+    gap: 20px;
+}
+
+/* Header/Logo Title */
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+    grid-column: 1/5;
+  }
+
+  .content-gridcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 80px 1000px;
+    
+    grid-gap: 10px;
+    background-color: #ccdeec;
+    padding: 10px;
+    
+  }
+
+  .content-gridcontainer > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  .img2 {
+    float: none;
+    border-radius: 50%;
+    margin-top: 3%;
+    width: 200px;
+    height: 200px;
+}
+
+name{
+    text-align: center;
+    align-content: center;
+
+}
+
+ 
