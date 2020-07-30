@@ -1,18 +1,31 @@
 body{
-    background-color: darkkhaki;
-    margin-left: 100px;
+    /*background-color: darkkhaki; */
+    margin-left: 150px;
+    margin-right: 150px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url("../Images/bgData2.jpg");
+    position: relative;    
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgb(3, 2, 46);
+    color: whitesmoke;
+
 }
 
-.Q1,.Q2,.Q3,.Q4,.Q5{
-    margin-left: 130px;
- 
+.Q1,.Q2,.Q3,.Q4,.Q5,.Next{
+    margin-left: 20px;
+    margin-right: 20px;
     font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    word-wrap: break-word;
 } 
 
 .QA1,.QA2,.QA3,.QA4,.QA5{
-    
-    margin-left: 180px;
+    word-wrap: break-word;
+    margin-left: 40px;
+    margin-right: 20px;
     font-family: 'Courier New', Courier, monospace;
 } 
 
@@ -21,5 +34,6 @@ body{
     position: relative;
     left: 0;
     width: 100%;  
+    color: rgb(233, 49, 89);
 }
 

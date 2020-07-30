@@ -4,13 +4,26 @@ body{
 
 /* Header/Logo Title */
 .header {
-    padding: 60px;
-    text-align: center;
-    background: #1abc9c;
+    padding: 40px;
+    text-align: center; 
+    background: #12725f;
+    color: white;
+    font-size: 40px;
+    float: left;
+    border-radius: 15px;
+  }
+  .header2 {
+    padding: 5px;
+    text-align: right;
+    background: #65940d;
     color: white;
     font-size: 30px;
-    grid-column: 1/5;
+    float: right;
+    border-radius: 15px;
+    margin-left: 300px;
+ 
   }
+
 
   .content-gridcontainer{
     display: grid;
@@ -18,16 +31,18 @@ body{
     grid-template-rows: 80px 1000px;
     
     grid-gap: 10px;
-    background-color: #ccdeec;
+    background-color: #b0d2ec;
     padding: 10px;
+    align-content: center;
     
   }
 
   .content-gridcontainer > div {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(243, 230, 230, 0.8);
     text-align: center;
     padding: 20px;
     font-size: 30px;
+    
   }
 
   .img2 {
@@ -38,10 +53,20 @@ body{
     height: 200px;
 }
 
-name{
+.name{
     text-align: center;
     align-content: center;
-    margin-top: 5px;
+    margin-top: 0;
+    margin-bottom: 70px;
+    font-style: italic;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
 }
 
  
