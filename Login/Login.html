@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+	<link rel="stylesheet" type="text/css" href="LoginStyle.css">
+	<script src="Login_Jscript.js"></script>
+
+<body>
+	<div class="loginbox">
+	<img src="user.jpg" class="user">
+	<h1>Login Here</h1>
+	
+	<form class="login_form" method="POST" action="index.php" name="form" onsubmit="return formValidate()">
+	  <p>Email:</p>
+	  <input type="text" name="email" placeholder="Enter Email" required/>
+	  <div id="email_error"></div>
+
+	   <p>Password:</p>
+	   <input type="password" name="password" placeholder="Enter Password" required/>	
+	   <div id="password_error"></div>
+
+	   <input onclick="formValidate()" type="submit" name="submit" value="Login"><br>
+	   <a href="Reset.html">Forgot username or password?</a><br>
+	   <a href="#">Sign Up?</a><br>
+	   <a href="#">Go Back</a>
+	</form>
+	</div>
+
+	
+	
+</body>
+</head>
+</html>
