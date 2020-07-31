@@ -1,11 +1,12 @@
 body{
     gap: 20px;
+    background-color: rgb(61, 7, 7);
 }
 
 /* Header/Logo Title */
 .header {
     padding: 40px;
-    text-align: center; 
+    text-align: left; 
     background: #12725f;
     color: white;
     font-size: 40px;
@@ -13,18 +14,17 @@ body{
     border-radius: 15px;
     background: url("../Images/bgData1.jpg");
     background-position: center;
-    background-repeat: repeat-x repeat-y;
-  
+
   }
   .header2 {
-    padding: 5px;
-    text-align: right;
+    padding: 40px;
+    text-align: left;
     background: #65940d;
     color: white;
     font-size: 30px;
     float: right;
     border-radius: 15px;
-    margin-left: 300px;
+    margin-left: 1000px;
  
   }
 
@@ -33,15 +33,18 @@ body{
     grid-template-columns: auto auto auto;
     grid-template-rows: 80px 1000px;
     
-    grid-gap: 10px;
-    background-color: #b0d2ec;
+    grid-gap: 20px;
+    background-color: #6191b6;
     padding: 10px;
     align-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 15px;
     
   }
 
   .content-gridcontainer > div {
-    background-color: rgba(243, 230, 230, 0.8);
+    background-color: rgba(248, 225, 225, 0.8);
     text-align: center;
     padding: 20px;
     font-size: 30px;
@@ -70,6 +73,8 @@ body{
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 100px; 
+  
 }
+
 
  
