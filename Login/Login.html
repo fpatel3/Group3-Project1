@@ -10,7 +10,7 @@
 	<img src="\Images\user.jpg" class="user">
 	<h1>Login Here</h1>
 	
-	<form class="login_form" method="POST" action="http://127.0.0.1:5500/ABOUT/about.html" name="form" onsubmit="return formValidate()">
+	<form class="login_form" method="POST" action="/ABOUT/about.html" name="form" onsubmit="return formValidate()">
 	  <p>Email:</p>
 	  <input type="text" name="email" placeholder="Enter Email" required/>
 	  <div id="email_error"></div>
@@ -19,7 +19,7 @@
 	   <input type="password" name="password" placeholder="Enter Password" required/>	
 	   <div id="password_error"></div>
 
-	   <input onclick="formValidate()" type="submit" name="submit" value="Login"><br>
+	   <input type="submit" name="submit" value="Login"><br>
 	   <a href="ResetUser.html">Forgot username or password?</a><br>
 	   <a href="\SIGNIN\SignIn.html">Sign Up?</a><br>
 	   <a href="\index\index.html">Go Back</a>
