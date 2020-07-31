@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+	<link rel="stylesheet" type="text/css" href="LoginStyle.css">
+	
+
+<body>
+	<div class="loginbox">
+	<img src="user.jpg" class="user">
+	<h1>Login Here</h1>
+	
+	<form">
+	  <p>Reset Email:</p>
+	  <input type="text" name="username" placeholder="Enter Username" required/>
+	   <p>Reset Password:</p>
+	   <input type="password" name="password" placeholder="Enter Password" required/>	
+	   <input type="submit" name="submit" value="Submit"><br>
+	   <a href="Login.html">Go Back</a><br>
+	   
+	</form>
+	</div>
+
+	
+	
+</body>
+</head>
+</html>
