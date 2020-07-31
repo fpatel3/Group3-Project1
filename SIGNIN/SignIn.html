@@ -8,15 +8,19 @@
 </head>
 <body>
     <div class= "form">
+        <form action="/SIGNIN/SignIn2.html" onsubmit="return validateForm()">
+            
         <table id='signin' class="signin">
-        <tr><td>Email-ID</td> <td><input type="email" placeholder="Enter Email-ID" name="email" id="email" required><br><br></td></tr>
-        <tr><td>Password</td><td><input type="text" placeholder="Enter Password" name="psw" id="psw" required><br><br></td></tr>
-        <tr><td>Confirm Password</td><td><input type="text" placeholder="Repeat Password" name="psw-re" id="psw-re" required><br><br></td></tr>
+        <tr><td>Email-ID</td> <td><input type="text" placeholder="Enter Email-ID" name="email" id="email" required><br><br></td></tr>
+        <tr><td>Password</td><td><input type="password" placeholder="Enter Password" name="psw" id="psw" required><br><br></td></tr>
+        <tr><td>Confirm Password</td><td><input type="password" placeholder="Repeat Password" name="psw-re" id="psw-re" required><br><br></td></tr>
         <tr><td>Name</td> <td><input type="text" placeholder="Enter Name" name="fname" id="fname" required><br><br></td></tr>
         <tr><td>Birthdate</td><td> </h5><input type="date" placeholder="YYYY-MM-DD" name="bdate" id="bdate" required><br><br></td></tr>
+        <tr><td><input type="submit" value="Next" ></td></tr>
     </table><br><br>
-    <button style="margin-left: 550;"><a href="SignIn2.html">Next</a></button>
-        
+    
+    <!-- <button style="margin-left: 550;"  >Next</button> -->
+    </form>
     </div>
     
 </body>

@@ -8,6 +8,7 @@
 </head>
 <body>
     <div class= "form">
+        <form action="/SIGNIN/SignIn.html" onsubmit="return validateForm()">
         <table id='signin2' class="signin2" >
         <tr><td>Street No.</td> <td><input type="text" placeholder="Enter Street Number" name="streetNo" id="streetNo" ><br><br></td></tr>
         <tr><td>Street Name</td><td><input type="text" placeholder="Enter Street Name" name="strretName" id="strretName" required><br><br></td></tr>
@@ -19,10 +20,24 @@
     </table><br><br>
     <button style="margin-left: 500;"><a href="SignIn.html">Previous</a></button>
     <button type="submit" style="margin-left: 25px;" class="signinbtn">Submit</button>
-        
+    </form>
     </div>
-
-
     
 </body>
 </html>
+
+<script>
+    function validateForm(){
+
+        var pcode = document.getElementById('pcode');   
+        if (pcode.value.length == 6){
+            return(true)
+        }
+        else{
+        
+            alert("Postal code must be 6 digit")
+            return (false)
+        }
+    console.log(foo)
+    }
+</script>
