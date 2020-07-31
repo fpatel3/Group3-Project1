@@ -8,9 +8,9 @@ function validateForm(){
         foo = true;
     }
     else{
-        foo = false
-        alert("You have entered an invalid email address!")
         
+        alert("You have entered an invalid email address!")
+        foo = false
     }
     foo = false;
     if (psw.value == psw_re.value ){
