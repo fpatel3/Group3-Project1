@@ -1,6 +1,7 @@
 body{
     gap: 20px;
     background-color: rgb(61, 7, 7);
+    display: flexbox;
 }
 
 /* Header/Logo Title */
@@ -14,7 +15,7 @@ body{
     border-radius: 15px;
     background: url("../Images/bgData1.jpg");
     background-position: center;
-
+    display: flexbox;
   }
   .header2 {
     padding: 40px;
@@ -25,13 +26,14 @@ body{
     float: right;
     border-radius: 15px;
     margin-left: 1000px;
+    display: flexbox;
  
   }
 
  .content-gridcontainer{
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 80px 1000px;
+    grid-template-rows: 80px 1100px;
     
     grid-gap: 20px;
     background-color: #6191b6;
@@ -40,7 +42,7 @@ body{
     margin-left: 100px;
     margin-right: 100px;
     border-radius: 15px;
-    
+    display: flexbox;
   }
 
   .content-gridcontainer > div {
@@ -48,7 +50,7 @@ body{
     text-align: center;
     padding: 20px;
     font-size: 30px;
-    
+    display: flexbox;
   }
 
   .img2 {
@@ -68,6 +70,7 @@ body{
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
+    display: flexbox;
 }
 
 p {
